@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "b656a869-f1bc-4e7a-b3f2-13c4de916098",
+		"name": "posts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/master-fullstack/api-rest-laravel/public/api/post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/master-fullstack/api-rest-laravel/public/api/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"master-fullstack",
+						"api-rest-laravel",
+						"public",
+						"api",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"master-fullstack",
+						"api-rest-laravel",
+						"public",
+						"api",
+						"post",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImVtYWlsIjoianVhbkBnbWFpbC5jb20iLCJuYW1lIjoiSnVhbiIsInN1cm5hbWUiOiJTYWxhcyIsImlhdCI6MTU3OTU2ODc3NywiZXhwIjoxNTgwMTczNTc3fQ.EoGQY4qRGmY0utpGv6G0vC7hFZypnYWriQSxT1b7jdQ"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "json",
+							"value": "{\"title\":\"Samsung s10\",\"content\":\"contenido del post\",\"category_id\":\"1\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"master-fullstack",
+						"api-rest-laravel",
+						"public",
+						"api",
+						"post",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImVtYWlsIjoianVhbkBnbWFpbC5jb20iLCJuYW1lIjoiSnVhbiIsInN1cm5hbWUiOiJTYWxhcyIsImlhdCI6MTU3OTU2ODc3NywiZXhwIjoxNTgwMTczNTc3fQ.EoGQY4qRGmY0utpGv6G0vC7hFZypnYWriQSxT1b7jdQ",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "json",
+							"value": "{\"title\":\"Gran torino\",\"content\":\"contenido del post\",\"category_id\":\"1\",\"image\":\"prueba.png\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/master-fullstack/api-rest-laravel/public/api/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"master-fullstack",
+						"api-rest-laravel",
+						"public",
+						"api",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImVtYWlsIjoianVhbkBnbWFpbC5jb20iLCJuYW1lIjoiSnVhbiIsInN1cm5hbWUiOiJTYWxhcyIsImlhdCI6MTU3OTU2ODc3NywiZXhwIjoxNTgwMTczNTc3fQ.EoGQY4qRGmY0utpGv6G0vC7hFZypnYWriQSxT1b7jdQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"master-fullstack",
+						"api-rest-laravel",
+						"public",
+						"api",
+						"post",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/upload",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/image/15797397140001 (5).jpg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/master-fullstack/api-rest-laravel/public/api/post/category/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
