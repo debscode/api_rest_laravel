@@ -61,7 +61,7 @@ class UserController extends Controller
                 $user->save();
 
                 $data = array(
-                    'status' => 'succes',
+                    'status' => 'success',
                     'code' => '200',
                     'message' => 'El usuario se ha creado correctamente',
                     'user' => $user,
