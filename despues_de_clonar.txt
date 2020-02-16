@@ -1,0 +1,14 @@
+ejecuta en la raiz de tu proyecto
+
+composer install
+seguido renombrar el archivo '.env.example' a '.env'
+
+luego ejecuta
+
+php artisan key:generate
+configura la conexión a la base de datos.
+
+en el archivo .env
+
+php artisan migrate (si tiene seeders utiliza  --seed)
+y ya deberías de poder visualizar tu proyecto.
